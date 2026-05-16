@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LifeApps</title>
+  <meta name="description" content="LifeApps - simple useful mobile apps. Explore app pages, policies, and EULA details." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="brand">LifeApps</a>
+      <nav class="nav">
+        <a href="#apps">Apps</a>
+        <a href="./apps/alarm-clock-power/eula/">EULA</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>One place for all LifeApps products</h1>
+        <p>Official pages for app info, updates, and legal documents.</p>
+      </div>
+    </section>
+
+    <section id="apps" class="section">
+      <div class="container">
+        <h2>Apps</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Alarm Clock Power</h3>
+            <p>Reliable alarms, simple setup, and clear controls focused on getting you up on time.</p>
+            <div class="card-actions">
+              <a class="btn" href="./apps/alarm-clock-power/">Open app page</a>
+              <a class="btn btn-secondary" href="./apps/alarm-clock-power/eula/">View EULA</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> LifeApps</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
