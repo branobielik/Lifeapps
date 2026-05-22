@@ -118,3 +118,20 @@ body {
 
 .content-box p, .content-box li { color: #d2daf9; }
 .muted { color: #9aa9dc; }
+
+.contact-email {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.contact-email-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-email-link:hover,
+.contact-email-link:focus {
+  text-decoration: underline;
+}
